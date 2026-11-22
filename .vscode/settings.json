@@ -1,0 +1,6 @@
+{
+	"code-runner.runInTerminal": true,
+	"code-runner.executorMap": {
+		"swift": "Set-Location -LiteralPath $dir; swiftc $fileName -o \"$fileNameWithoutExt.exe\"; if ($LASTEXITCODE -eq 0) { .\\$fileNameWithoutExt.exe }"
+	}
+}
